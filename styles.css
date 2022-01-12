@@ -97,7 +97,8 @@ footer {
 @media (max-width:768px) {
 .set{
   margin: auto;
-  grid-template-columns: 1fr;}
+  grid-template-columns: 1fr 2fr;
+}
   .drum{
     margin: auto;
     justify-content: center;
@@ -109,5 +110,8 @@ footer {
   }
   footer{
     font-size: 1rem;
+  }
+  .l{
+    margin-left: 50%;
   }
 }
